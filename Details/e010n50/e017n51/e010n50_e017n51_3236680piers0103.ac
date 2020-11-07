@@ -1,0 +1,54 @@
+AC3Db
+MATERIAL "unlit" rgb 0.000 0.000 0.000 amb 1 1 1 emis 0 0 0 spec 0.0 0.0 0.0 shi 0 trans 0
+MATERIAL "lit" rgb 1.000 1.000 1.000 amb 1 1 1 emis 0 0 0 spec 0.0 0.0 0.0 shi 0 trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "piers"
+texture "Textures/Terrain/asphalt.png"
+numvert 8
+100.369 114.611 650.643
+95.9188 114.611 639.603
+97.7737 114.611 638.855
+102.224 114.611 649.895
+100.369 112.611 650.643
+95.9188 112.611 639.603
+97.7737 112.611 638.855
+102.224 112.611 649.895
+numsurf 5
+SURF 0
+mat 0
+refs 4
+3 0 0.75
+2 0 0.75
+1 0 0.5
+0 0 0.5
+SURF 0
+mat 0
+refs 4
+5 0 0.5
+4 0 0.5
+0 0 0.5
+1 0 0.5
+SURF 0
+mat 0
+refs 4
+7 0 0.5
+6 0 0.5
+2 0 0.5
+3 0 0.5
+SURF 0
+mat 0
+refs 4
+0 0 0.5
+4 0 0.5
+7 0 0.5
+3 0 0.5
+SURF 0
+mat 0
+refs 4
+6 0 0.5
+5 0 0.5
+1 0 0.5
+2 0 0.5
+kids 0
